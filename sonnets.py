@@ -5,7 +5,7 @@ word_dict = dict((elt,1)for elt in word_list)  # faster!
 
 counter=0
 for word in mywords:
-    if word not in word_list:
+    if word not in word_dict:
         print(word)
         counter+=1
 
